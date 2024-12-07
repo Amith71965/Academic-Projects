@@ -1,0 +1,948 @@
+Clock Cycle 1
+----------------
+
+Registers:
+Regs[0]: 0x0
+Regs[1]: 0x101
+Regs[2]: 0x102
+Regs[3]: 0x103
+Regs[4]: 0x104
+Regs[5]: 0x105
+Regs[6]: 0x106
+Regs[7]: 0x107
+Regs[8]: 0x108
+Regs[9]: 0x109
+Regs[10]: 0x10A
+Regs[11]: 0x10B
+Regs[12]: 0x10C
+Regs[13]: 0x10D
+Regs[14]: 0x10E
+Regs[15]: 0x10F
+Regs[16]: 0x110
+Regs[17]: 0x111
+Regs[18]: 0x112
+Regs[19]: 0x113
+Regs[20]: 0x114
+Regs[21]: 0x115
+Regs[22]: 0x116
+Regs[23]: 0x117
+Regs[24]: 0x118
+Regs[25]: 0x119
+Regs[26]: 0x11A
+Regs[27]: 0x11B
+Regs[28]: 0x11C
+Regs[29]: 0x11D
+Regs[30]: 0x11E
+Regs[31]: 0x11F
+
+IF/ID Write (written to by the IF stage)
+Instruction: 0xA1020000
+
+IF/ID Read (read by the ID stage)
+Instruction: 0x0
+
+ID/EX Write (written to by the ID stage)
+Control Signals:
+RegDst: 0, ALUSrc: 0, ALUOp: 0, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 0
+Values:
+ReadReg1Value: 0x0
+ReadReg2Value: 0x0
+Offset: 0x0
+WriteReg1: 0
+WriteReg2: 0, Function: 0x0
+
+ID/EX ReadControl Signals:
+RegDst: 0, ALUSrc: 0, ALUOp: 0, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 0
+Values:
+ReadReg1Value: 0x0
+ReadReg2Value: 0x0
+Offset: 0x0
+WriteReg1: 0
+WriteReg2: 0, Function: 0x0
+
+EX/MEM Write
+MemRead: 0, Memwrite: 0, MemToReg: 0, RegWrite: 0
+AluResult: 0x0, SWValue: 0x0, WriteRegNum: 0
+
+EX/MEM Read
+MemRead: 13320272, Memwrite: 2, MemToReg: 1, Regwrite: 0
+ALUResult: 0x6FDFF220, SWValue: 0x1, WriteRegNum: -1672805160
+
+MEM/WB Write
+MemToReg: 1, RegWrite: 0, LWDataValue: 0, ALUResults: 0x6FDFF220, WriteRegNum: -1672805160
+
+MEM/WB Write
+MemToReg: 16777232, RegWrite: 26, LWDataValue: 96710282, ALUResults: 0x0, WriteRegNum: 13321088
+
+
+Clock Cycle 2
+----------------
+
+Registers:
+Regs[0]: 0x0
+Regs[1]: 0x101
+Regs[2]: 0x102
+Regs[3]: 0x103
+Regs[4]: 0x104
+Regs[5]: 0x105
+Regs[6]: 0x106
+Regs[7]: 0x107
+Regs[8]: 0x108
+Regs[9]: 0x109
+Regs[10]: 0x10A
+Regs[11]: 0x10B
+Regs[12]: 0x10C
+Regs[13]: 0x10D
+Regs[14]: 0x10E
+Regs[15]: 0x10F
+Regs[16]: 0x110
+Regs[17]: 0x111
+Regs[18]: 0x112
+Regs[19]: 0x113
+Regs[20]: 0x114
+Regs[21]: 0x115
+Regs[22]: 0x116
+Regs[23]: 0x117
+Regs[24]: 0x118
+Regs[25]: 0x119
+Regs[26]: 0x11A
+Regs[27]: 0x11B
+Regs[28]: 0x11C
+Regs[29]: 0x11D
+Regs[30]: 0x11E
+Regs[31]: 0x11F
+
+IF/ID Write (written to by the IF stage)
+Instruction: 0x810AFFFC
+
+IF/ID Read (read by the ID stage)
+Instruction: 0xA1020000
+
+ID/EX Write (written to by the ID stage)
+Control Signals:
+RegDst: 0, ALUSrc: 1, ALUOp: 0, MemRead: 0
+MemWrite: 1, MemToReg: 0, RegWrite: 0
+Values:
+ReadReg1Value: 0x108
+ReadReg2Value: 0x102
+Offset: 0x0
+WriteReg1: 2
+WriteReg2: 0, Function: 0x0
+
+ID/EX ReadControl Signals:
+RegDst: 0, ALUSrc: 0, ALUOp: 0, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 0
+Values:
+ReadReg1Value: 0x0
+ReadReg2Value: 0x0
+Offset: 0x0
+WriteReg1: 0
+WriteReg2: 0, Function: 0x0
+
+EX/MEM Write
+MemRead: 0, Memwrite: 0, MemToReg: 0, RegWrite: 0
+AluResult: 0x0, SWValue: 0x0, WriteRegNum: 0
+
+EX/MEM Read
+MemRead: 0, Memwrite: 0, MemToReg: 0, Regwrite: 0
+ALUResult: 0x0, SWValue: 0x0, WriteRegNum: 0
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 0, LWDataValue: 0, ALUResults: 0x0, WriteRegNum: 0
+
+MEM/WB Write
+MemToReg: 1, RegWrite: 0, LWDataValue: 0, ALUResults: 0x6FDFF220, WriteRegNum: -1672805160
+
+
+Clock Cycle 3
+----------------
+
+Registers:
+Regs[0]: 0x0
+Regs[1]: 0x101
+Regs[2]: 0x102
+Regs[3]: 0x103
+Regs[4]: 0x104
+Regs[5]: 0x105
+Regs[6]: 0x106
+Regs[7]: 0x107
+Regs[8]: 0x108
+Regs[9]: 0x109
+Regs[10]: 0x10A
+Regs[11]: 0x10B
+Regs[12]: 0x10C
+Regs[13]: 0x10D
+Regs[14]: 0x10E
+Regs[15]: 0x10F
+Regs[16]: 0x110
+Regs[17]: 0x111
+Regs[18]: 0x112
+Regs[19]: 0x113
+Regs[20]: 0x114
+Regs[21]: 0x115
+Regs[22]: 0x116
+Regs[23]: 0x117
+Regs[24]: 0x118
+Regs[25]: 0x119
+Regs[26]: 0x11A
+Regs[27]: 0x11B
+Regs[28]: 0x11C
+Regs[29]: 0x11D
+Regs[30]: 0x11E
+Regs[31]: 0x11F
+
+IF/ID Write (written to by the IF stage)
+Instruction: 0x831820
+
+IF/ID Read (read by the ID stage)
+Instruction: 0x810AFFFC
+
+ID/EX Write (written to by the ID stage)
+Control Signals:
+RegDst: 0, ALUSrc: 1, ALUOp: 0, MemRead: 1
+MemWrite: 0, MemToReg: 1, RegWrite: 1
+Values:
+ReadReg1Value: 0x108
+ReadReg2Value: 0x10A
+Offset: 0xFFFC
+WriteReg1: 10
+WriteReg2: 31, Function: 0x3C
+
+ID/EX ReadControl Signals:
+RegDst: 0, ALUSrc: 1, ALUOp: 0, MemRead: 0
+MemWrite: 1, MemToReg: 0, RegWrite: 0
+Values:
+ReadReg1Value: 0x108
+ReadReg2Value: 0x102
+Offset: 0x0
+WriteReg1: 2
+WriteReg2: 0, Function: 0x0
+
+EX/MEM Write
+MemRead: 0, Memwrite: 1, MemToReg: 0, RegWrite: 0
+AluResult: 0x108, SWValue: 0x102, WriteRegNum: 2
+
+EX/MEM Read
+MemRead: 0, Memwrite: 0, MemToReg: 0, Regwrite: 0
+ALUResult: 0x0, SWValue: 0x0, WriteRegNum: 0
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 0, LWDataValue: 0, ALUResults: 0x0, WriteRegNum: 0
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 0, LWDataValue: 0, ALUResults: 0x0, WriteRegNum: 0
+
+
+Clock Cycle 4
+----------------
+
+Registers:
+Regs[0]: 0x0
+Regs[1]: 0x101
+Regs[2]: 0x102
+Regs[3]: 0x103
+Regs[4]: 0x104
+Regs[5]: 0x105
+Regs[6]: 0x106
+Regs[7]: 0x107
+Regs[8]: 0x108
+Regs[9]: 0x109
+Regs[10]: 0x10A
+Regs[11]: 0x10B
+Regs[12]: 0x10C
+Regs[13]: 0x10D
+Regs[14]: 0x10E
+Regs[15]: 0x10F
+Regs[16]: 0x110
+Regs[17]: 0x111
+Regs[18]: 0x112
+Regs[19]: 0x113
+Regs[20]: 0x114
+Regs[21]: 0x115
+Regs[22]: 0x116
+Regs[23]: 0x117
+Regs[24]: 0x118
+Regs[25]: 0x119
+Regs[26]: 0x11A
+Regs[27]: 0x11B
+Regs[28]: 0x11C
+Regs[29]: 0x11D
+Regs[30]: 0x11E
+Regs[31]: 0x11F
+
+IF/ID Write (written to by the IF stage)
+Instruction: 0x1263820
+
+IF/ID Read (read by the ID stage)
+Instruction: 0x831820
+
+ID/EX Write (written to by the ID stage)
+Control Signals:
+RegDst: 1, ALUSrc: 0, ALUOp: 10, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 1
+Values:
+ReadReg1Value: 0x104
+ReadReg2Value: 0x103
+Offset: 0x1820
+WriteReg1: 3
+WriteReg2: 3, Function: 0x20
+
+ID/EX ReadControl Signals:
+RegDst: 0, ALUSrc: 1, ALUOp: 0, MemRead: 1
+MemWrite: 0, MemToReg: 1, RegWrite: 1
+Values:
+ReadReg1Value: 0x108
+ReadReg2Value: 0x10A
+Offset: 0xFFFC
+WriteReg1: 10
+WriteReg2: 31, Function: 0x3C
+
+EX/MEM Write
+MemRead: 1, Memwrite: 0, MemToReg: 1, RegWrite: 1
+AluResult: 0x10104, SWValue: 0x10A, WriteRegNum: 10
+
+EX/MEM Read
+MemRead: 0, Memwrite: 1, MemToReg: 0, Regwrite: 0
+ALUResult: 0x108, SWValue: 0x102, WriteRegNum: 2
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 0, LWDataValue: 0, ALUResults: 0x108, WriteRegNum: 0
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 0, LWDataValue: 0, ALUResults: 0x0, WriteRegNum: 0
+
+
+Clock Cycle 5
+----------------
+Warning: Memory access out of bounds at address 0x10104
+
+Registers:
+Regs[0]: 0x0
+Regs[1]: 0x101
+Regs[2]: 0x102
+Regs[3]: 0x103
+Regs[4]: 0x104
+Regs[5]: 0x105
+Regs[6]: 0x106
+Regs[7]: 0x107
+Regs[8]: 0x108
+Regs[9]: 0x109
+Regs[10]: 0x10A
+Regs[11]: 0x10B
+Regs[12]: 0x10C
+Regs[13]: 0x10D
+Regs[14]: 0x10E
+Regs[15]: 0x10F
+Regs[16]: 0x110
+Regs[17]: 0x111
+Regs[18]: 0x112
+Regs[19]: 0x113
+Regs[20]: 0x114
+Regs[21]: 0x115
+Regs[22]: 0x116
+Regs[23]: 0x117
+Regs[24]: 0x118
+Regs[25]: 0x119
+Regs[26]: 0x11A
+Regs[27]: 0x11B
+Regs[28]: 0x11C
+Regs[29]: 0x11D
+Regs[30]: 0x11E
+Regs[31]: 0x11F
+
+IF/ID Write (written to by the IF stage)
+Instruction: 0x1224820
+
+IF/ID Read (read by the ID stage)
+Instruction: 0x1263820
+
+ID/EX Write (written to by the ID stage)
+Control Signals:
+RegDst: 1, ALUSrc: 0, ALUOp: 10, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 1
+Values:
+ReadReg1Value: 0x109
+ReadReg2Value: 0x106
+Offset: 0x3820
+WriteReg1: 6
+WriteReg2: 7, Function: 0x20
+
+ID/EX ReadControl Signals:
+RegDst: 1, ALUSrc: 0, ALUOp: 10, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 1
+Values:
+ReadReg1Value: 0x104
+ReadReg2Value: 0x103
+Offset: 0x1820
+WriteReg1: 3
+WriteReg2: 3, Function: 0x20
+
+EX/MEM Write
+MemRead: 0, Memwrite: 0, MemToReg: 0, RegWrite: 1
+AluResult: 0x207, SWValue: 0x103, WriteRegNum: 3
+
+EX/MEM Read
+MemRead: 1, Memwrite: 0, MemToReg: 1, Regwrite: 1
+ALUResult: 0x10104, SWValue: 0x10A, WriteRegNum: 10
+
+MEM/WB Write
+MemToReg: 1, RegWrite: 1, LWDataValue: 0, ALUResults: 0x10104, WriteRegNum: 0
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 0, LWDataValue: 0, ALUResults: 0x108, WriteRegNum: 0
+
+
+Clock Cycle 6
+----------------
+
+Registers:
+Regs[0]: 0x0
+Regs[1]: 0x101
+Regs[2]: 0x102
+Regs[3]: 0x103
+Regs[4]: 0x104
+Regs[5]: 0x105
+Regs[6]: 0x106
+Regs[7]: 0x107
+Regs[8]: 0x108
+Regs[9]: 0x109
+Regs[10]: 0x10A
+Regs[11]: 0x10B
+Regs[12]: 0x10C
+Regs[13]: 0x10D
+Regs[14]: 0x10E
+Regs[15]: 0x10F
+Regs[16]: 0x110
+Regs[17]: 0x111
+Regs[18]: 0x112
+Regs[19]: 0x113
+Regs[20]: 0x114
+Regs[21]: 0x115
+Regs[22]: 0x116
+Regs[23]: 0x117
+Regs[24]: 0x118
+Regs[25]: 0x119
+Regs[26]: 0x11A
+Regs[27]: 0x11B
+Regs[28]: 0x11C
+Regs[29]: 0x11D
+Regs[30]: 0x11E
+Regs[31]: 0x11F
+
+IF/ID Write (written to by the IF stage)
+Instruction: 0x81180000
+
+IF/ID Read (read by the ID stage)
+Instruction: 0x1224820
+
+ID/EX Write (written to by the ID stage)
+Control Signals:
+RegDst: 1, ALUSrc: 0, ALUOp: 10, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 1
+Values:
+ReadReg1Value: 0x109
+ReadReg2Value: 0x102
+Offset: 0x4820
+WriteReg1: 2
+WriteReg2: 9, Function: 0x20
+
+ID/EX ReadControl Signals:
+RegDst: 1, ALUSrc: 0, ALUOp: 10, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 1
+Values:
+ReadReg1Value: 0x109
+ReadReg2Value: 0x106
+Offset: 0x3820
+WriteReg1: 6
+WriteReg2: 7, Function: 0x20
+
+EX/MEM Write
+MemRead: 0, Memwrite: 0, MemToReg: 0, RegWrite: 1
+AluResult: 0x20F, SWValue: 0x106, WriteRegNum: 7
+
+EX/MEM Read
+MemRead: 0, Memwrite: 0, MemToReg: 0, Regwrite: 1
+ALUResult: 0x207, SWValue: 0x103, WriteRegNum: 3
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 1, LWDataValue: 0, ALUResults: 0x207, WriteRegNum: 3
+
+MEM/WB Write
+MemToReg: 1, RegWrite: 1, LWDataValue: 0, ALUResults: 0x10104, WriteRegNum: 0
+
+
+Clock Cycle 7
+----------------
+
+Registers:
+Regs[0]: 0x0
+Regs[1]: 0x101
+Regs[2]: 0x102
+Regs[3]: 0x207
+Regs[4]: 0x104
+Regs[5]: 0x105
+Regs[6]: 0x106
+Regs[7]: 0x107
+Regs[8]: 0x108
+Regs[9]: 0x109
+Regs[10]: 0x10A
+Regs[11]: 0x10B
+Regs[12]: 0x10C
+Regs[13]: 0x10D
+Regs[14]: 0x10E
+Regs[15]: 0x10F
+Regs[16]: 0x110
+Regs[17]: 0x111
+Regs[18]: 0x112
+Regs[19]: 0x113
+Regs[20]: 0x114
+Regs[21]: 0x115
+Regs[22]: 0x116
+Regs[23]: 0x117
+Regs[24]: 0x118
+Regs[25]: 0x119
+Regs[26]: 0x11A
+Regs[27]: 0x11B
+Regs[28]: 0x11C
+Regs[29]: 0x11D
+Regs[30]: 0x11E
+Regs[31]: 0x11F
+
+IF/ID Write (written to by the IF stage)
+Instruction: 0x81510010
+
+IF/ID Read (read by the ID stage)
+Instruction: 0x81180000
+
+ID/EX Write (written to by the ID stage)
+Control Signals:
+RegDst: 0, ALUSrc: 1, ALUOp: 0, MemRead: 1
+MemWrite: 0, MemToReg: 1, RegWrite: 1
+Values:
+ReadReg1Value: 0x108
+ReadReg2Value: 0x118
+Offset: 0x0
+WriteReg1: 24
+WriteReg2: 0, Function: 0x0
+
+ID/EX ReadControl Signals:
+RegDst: 1, ALUSrc: 0, ALUOp: 10, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 1
+Values:
+ReadReg1Value: 0x109
+ReadReg2Value: 0x102
+Offset: 0x4820
+WriteReg1: 2
+WriteReg2: 9, Function: 0x20
+
+EX/MEM Write
+MemRead: 0, Memwrite: 0, MemToReg: 0, RegWrite: 1
+AluResult: 0x20B, SWValue: 0x102, WriteRegNum: 9
+
+EX/MEM Read
+MemRead: 0, Memwrite: 0, MemToReg: 0, Regwrite: 1
+ALUResult: 0x20F, SWValue: 0x106, WriteRegNum: 7
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 1, LWDataValue: 0, ALUResults: 0x20F, WriteRegNum: 7
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 1, LWDataValue: 0, ALUResults: 0x207, WriteRegNum: 3
+
+
+Clock Cycle 8
+----------------
+
+Registers:
+Regs[0]: 0x0
+Regs[1]: 0x101
+Regs[2]: 0x102
+Regs[3]: 0x207
+Regs[4]: 0x104
+Regs[5]: 0x105
+Regs[6]: 0x106
+Regs[7]: 0x20F
+Regs[8]: 0x108
+Regs[9]: 0x109
+Regs[10]: 0x10A
+Regs[11]: 0x10B
+Regs[12]: 0x10C
+Regs[13]: 0x10D
+Regs[14]: 0x10E
+Regs[15]: 0x10F
+Regs[16]: 0x110
+Regs[17]: 0x111
+Regs[18]: 0x112
+Regs[19]: 0x113
+Regs[20]: 0x114
+Regs[21]: 0x115
+Regs[22]: 0x116
+Regs[23]: 0x117
+Regs[24]: 0x118
+Regs[25]: 0x119
+Regs[26]: 0x11A
+Regs[27]: 0x11B
+Regs[28]: 0x11C
+Regs[29]: 0x11D
+Regs[30]: 0x11E
+Regs[31]: 0x11F
+
+IF/ID Write (written to by the IF stage)
+Instruction: 0x624022
+
+IF/ID Read (read by the ID stage)
+Instruction: 0x81510010
+
+ID/EX Write (written to by the ID stage)
+Control Signals:
+RegDst: 0, ALUSrc: 1, ALUOp: 0, MemRead: 1
+MemWrite: 0, MemToReg: 1, RegWrite: 1
+Values:
+ReadReg1Value: 0x10A
+ReadReg2Value: 0x111
+Offset: 0x10
+WriteReg1: 17
+WriteReg2: 0, Function: 0x10
+
+ID/EX ReadControl Signals:
+RegDst: 0, ALUSrc: 1, ALUOp: 0, MemRead: 1
+MemWrite: 0, MemToReg: 1, RegWrite: 1
+Values:
+ReadReg1Value: 0x108
+ReadReg2Value: 0x118
+Offset: 0x0
+WriteReg1: 24
+WriteReg2: 0, Function: 0x0
+
+EX/MEM Write
+MemRead: 1, Memwrite: 0, MemToReg: 1, RegWrite: 1
+AluResult: 0x108, SWValue: 0x118, WriteRegNum: 24
+
+EX/MEM Read
+MemRead: 0, Memwrite: 0, MemToReg: 0, Regwrite: 1
+ALUResult: 0x20B, SWValue: 0x102, WriteRegNum: 9
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 1, LWDataValue: 0, ALUResults: 0x20B, WriteRegNum: 9
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 1, LWDataValue: 0, ALUResults: 0x20F, WriteRegNum: 7
+
+
+Clock Cycle 9
+----------------
+
+Registers:
+Regs[0]: 0x0
+Regs[1]: 0x101
+Regs[2]: 0x102
+Regs[3]: 0x207
+Regs[4]: 0x104
+Regs[5]: 0x105
+Regs[6]: 0x106
+Regs[7]: 0x20F
+Regs[8]: 0x108
+Regs[9]: 0x20B
+Regs[10]: 0x10A
+Regs[11]: 0x10B
+Regs[12]: 0x10C
+Regs[13]: 0x10D
+Regs[14]: 0x10E
+Regs[15]: 0x10F
+Regs[16]: 0x110
+Regs[17]: 0x111
+Regs[18]: 0x112
+Regs[19]: 0x113
+Regs[20]: 0x114
+Regs[21]: 0x115
+Regs[22]: 0x116
+Regs[23]: 0x117
+Regs[24]: 0x118
+Regs[25]: 0x119
+Regs[26]: 0x11A
+Regs[27]: 0x11B
+Regs[28]: 0x11C
+Regs[29]: 0x11D
+Regs[30]: 0x11E
+Regs[31]: 0x11F
+
+IF/ID Write (written to by the IF stage)
+Instruction: 0x0
+
+IF/ID Read (read by the ID stage)
+Instruction: 0x624022
+
+ID/EX Write (written to by the ID stage)
+Control Signals:
+RegDst: 1, ALUSrc: 0, ALUOp: 10, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 1
+Values:
+ReadReg1Value: 0x207
+ReadReg2Value: 0x102
+Offset: 0x4022
+WriteReg1: 2
+WriteReg2: 8, Function: 0x22
+
+ID/EX ReadControl Signals:
+RegDst: 0, ALUSrc: 1, ALUOp: 0, MemRead: 1
+MemWrite: 0, MemToReg: 1, RegWrite: 1
+Values:
+ReadReg1Value: 0x10A
+ReadReg2Value: 0x111
+Offset: 0x10
+WriteReg1: 17
+WriteReg2: 0, Function: 0x10
+
+EX/MEM Write
+MemRead: 1, Memwrite: 0, MemToReg: 1, RegWrite: 1
+AluResult: 0x11A, SWValue: 0x111, WriteRegNum: 17
+
+EX/MEM Read
+MemRead: 1, Memwrite: 0, MemToReg: 1, Regwrite: 1
+ALUResult: 0x108, SWValue: 0x118, WriteRegNum: 24
+
+MEM/WB Write
+MemToReg: 1, RegWrite: 1, LWDataValue: 258, ALUResults: 0x108, WriteRegNum: 24
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 1, LWDataValue: 0, ALUResults: 0x20B, WriteRegNum: 9
+
+
+Clock Cycle 10
+----------------
+
+Registers:
+Regs[0]: 0x0
+Regs[1]: 0x101
+Regs[2]: 0x102
+Regs[3]: 0x207
+Regs[4]: 0x104
+Regs[5]: 0x105
+Regs[6]: 0x106
+Regs[7]: 0x20F
+Regs[8]: 0x108
+Regs[9]: 0x20B
+Regs[10]: 0x10A
+Regs[11]: 0x10B
+Regs[12]: 0x10C
+Regs[13]: 0x10D
+Regs[14]: 0x10E
+Regs[15]: 0x10F
+Regs[16]: 0x110
+Regs[17]: 0x111
+Regs[18]: 0x112
+Regs[19]: 0x113
+Regs[20]: 0x114
+Regs[21]: 0x115
+Regs[22]: 0x116
+Regs[23]: 0x117
+Regs[24]: 0x102
+Regs[25]: 0x119
+Regs[26]: 0x11A
+Regs[27]: 0x11B
+Regs[28]: 0x11C
+Regs[29]: 0x11D
+Regs[30]: 0x11E
+Regs[31]: 0x11F
+
+IF/ID Write (written to by the IF stage)
+Instruction: 0x0
+
+IF/ID Read (read by the ID stage)
+Instruction: 0x0
+
+ID/EX Write (written to by the ID stage)
+Control Signals:
+RegDst: 1, ALUSrc: 0, ALUOp: 10, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 1
+Values:
+ReadReg1Value: 0x207
+ReadReg2Value: 0x102
+Offset: 0x4022
+WriteReg1: 2
+WriteReg2: 8, Function: 0x22
+
+ID/EX ReadControl Signals:
+RegDst: 1, ALUSrc: 0, ALUOp: 10, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 1
+Values:
+ReadReg1Value: 0x207
+ReadReg2Value: 0x102
+Offset: 0x4022
+WriteReg1: 2
+WriteReg2: 8, Function: 0x22
+
+EX/MEM Write
+MemRead: 0, Memwrite: 0, MemToReg: 0, RegWrite: 1
+AluResult: 0x105, SWValue: 0x102, WriteRegNum: 8
+
+EX/MEM Read
+MemRead: 1, Memwrite: 0, MemToReg: 1, Regwrite: 1
+ALUResult: 0x11A, SWValue: 0x111, WriteRegNum: 17
+
+MEM/WB Write
+MemToReg: 1, RegWrite: 1, LWDataValue: 26, ALUResults: 0x11A, WriteRegNum: 17
+
+MEM/WB Write
+MemToReg: 1, RegWrite: 1, LWDataValue: 258, ALUResults: 0x108, WriteRegNum: 24
+
+
+Clock Cycle 11
+----------------
+
+Registers:
+Regs[0]: 0x0
+Regs[1]: 0x101
+Regs[2]: 0x102
+Regs[3]: 0x207
+Regs[4]: 0x104
+Regs[5]: 0x105
+Regs[6]: 0x106
+Regs[7]: 0x20F
+Regs[8]: 0x108
+Regs[9]: 0x20B
+Regs[10]: 0x10A
+Regs[11]: 0x10B
+Regs[12]: 0x10C
+Regs[13]: 0x10D
+Regs[14]: 0x10E
+Regs[15]: 0x10F
+Regs[16]: 0x110
+Regs[17]: 0x1A
+Regs[18]: 0x112
+Regs[19]: 0x113
+Regs[20]: 0x114
+Regs[21]: 0x115
+Regs[22]: 0x116
+Regs[23]: 0x117
+Regs[24]: 0x102
+Regs[25]: 0x119
+Regs[26]: 0x11A
+Regs[27]: 0x11B
+Regs[28]: 0x11C
+Regs[29]: 0x11D
+Regs[30]: 0x11E
+Regs[31]: 0x11F
+
+IF/ID Write (written to by the IF stage)
+Instruction: 0x0
+
+IF/ID Read (read by the ID stage)
+Instruction: 0x0
+
+ID/EX Write (written to by the ID stage)
+Control Signals:
+RegDst: 1, ALUSrc: 0, ALUOp: 10, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 1
+Values:
+ReadReg1Value: 0x207
+ReadReg2Value: 0x102
+Offset: 0x4022
+WriteReg1: 2
+WriteReg2: 8, Function: 0x22
+
+ID/EX ReadControl Signals:
+RegDst: 1, ALUSrc: 0, ALUOp: 10, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 1
+Values:
+ReadReg1Value: 0x207
+ReadReg2Value: 0x102
+Offset: 0x4022
+WriteReg1: 2
+WriteReg2: 8, Function: 0x22
+
+EX/MEM Write
+MemRead: 0, Memwrite: 0, MemToReg: 0, RegWrite: 1
+AluResult: 0x105, SWValue: 0x102, WriteRegNum: 8
+
+EX/MEM Read
+MemRead: 0, Memwrite: 0, MemToReg: 0, Regwrite: 1
+ALUResult: 0x105, SWValue: 0x102, WriteRegNum: 8
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 1, LWDataValue: 26, ALUResults: 0x105, WriteRegNum: 8
+
+MEM/WB Write
+MemToReg: 1, RegWrite: 1, LWDataValue: 26, ALUResults: 0x11A, WriteRegNum: 17
+
+
+Clock Cycle 12
+----------------
+
+Registers:
+Regs[0]: 0x0
+Regs[1]: 0x101
+Regs[2]: 0x102
+Regs[3]: 0x207
+Regs[4]: 0x104
+Regs[5]: 0x105
+Regs[6]: 0x106
+Regs[7]: 0x20F
+Regs[8]: 0x105
+Regs[9]: 0x20B
+Regs[10]: 0x10A
+Regs[11]: 0x10B
+Regs[12]: 0x10C
+Regs[13]: 0x10D
+Regs[14]: 0x10E
+Regs[15]: 0x10F
+Regs[16]: 0x110
+Regs[17]: 0x1A
+Regs[18]: 0x112
+Regs[19]: 0x113
+Regs[20]: 0x114
+Regs[21]: 0x115
+Regs[22]: 0x116
+Regs[23]: 0x117
+Regs[24]: 0x102
+Regs[25]: 0x119
+Regs[26]: 0x11A
+Regs[27]: 0x11B
+Regs[28]: 0x11C
+Regs[29]: 0x11D
+Regs[30]: 0x11E
+Regs[31]: 0x11F
+
+IF/ID Write (written to by the IF stage)
+Instruction: 0x0
+
+IF/ID Read (read by the ID stage)
+Instruction: 0x0
+
+ID/EX Write (written to by the ID stage)
+Control Signals:
+RegDst: 1, ALUSrc: 0, ALUOp: 10, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 1
+Values:
+ReadReg1Value: 0x207
+ReadReg2Value: 0x102
+Offset: 0x4022
+WriteReg1: 2
+WriteReg2: 8, Function: 0x22
+
+ID/EX ReadControl Signals:
+RegDst: 1, ALUSrc: 0, ALUOp: 10, MemRead: 0
+MemWrite: 0, MemToReg: 0, RegWrite: 1
+Values:
+ReadReg1Value: 0x207
+ReadReg2Value: 0x102
+Offset: 0x4022
+WriteReg1: 2
+WriteReg2: 8, Function: 0x22
+
+EX/MEM Write
+MemRead: 0, Memwrite: 0, MemToReg: 0, RegWrite: 1
+AluResult: 0x105, SWValue: 0x102, WriteRegNum: 8
+
+EX/MEM Read
+MemRead: 0, Memwrite: 0, MemToReg: 0, Regwrite: 1
+ALUResult: 0x105, SWValue: 0x102, WriteRegNum: 8
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 1, LWDataValue: 26, ALUResults: 0x105, WriteRegNum: 8
+
+MEM/WB Write
+MemToReg: 0, RegWrite: 1, LWDataValue: 26, ALUResults: 0x105, WriteRegNum: 8
+Program ended with exit code: 0
